@@ -49,7 +49,7 @@ public class Main{
                     break;
                 default:
                     dec_num += Character.getNumericValue(c) * Math.pow(16, stringLength - i);
-                    break;
+                    break; //Possibilities of hexadecimal
             }
         }
         return dec_num;
